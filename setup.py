@@ -23,7 +23,7 @@ def likely_error():
     error_message = "\n".join(
         [
             "The 'sklearn' PyPI package is deprecated, use 'scikit-learn'",
-            "rather than 'sklearn' for pip commands. ",
+            "rather than 'sklearn' for pip commands.",
             "",
             "Here is how to fix this error in the main use cases:",
             "- use 'pip install scikit-learn' rather than 'pip install sklearn'",
